@@ -8,9 +8,10 @@ import { styles } from "../styles";
 
 const Navbar = () => {
   return (
-    <div className={
-      `${styles.paddinX}`
-    }>
+    <div className={`${styles.paddinX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+      <div className='w-full flex justify-between items-center max-1-7x1 mx-auto'>
+
+      </div>
 
     </div>
   )
