@@ -5,7 +5,9 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className='relative w-full'>
+
+    </section>
   )
 }
 
