@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className={`${styles.paddinX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
-      <div className='w-full flex justify-between items-center max-1-7x1 mx-auto'>
+      <div className='w-full flex justify-between items-center max-1-7x1 mx-auto p-2.5'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -22,13 +22,12 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer'>
-            Taine <span className='sm:block hidden'>| Rasmussen</span>
+            Taine Rasmussen<span className='sm:block hidden'>| Portfolio</span>
           </p>
         </Link>
       </div>
-
     </div >
   )
 }
