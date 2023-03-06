@@ -31,6 +31,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li
               key={link.id}
+              onClick={() => { setActive(link.title) }}
               className={`${active === link.title
                 ? 'text-white'
                 : 'text-secondary'
