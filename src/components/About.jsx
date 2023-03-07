@@ -1,4 +1,4 @@
-
+import { SectionWrapper } from '../hoc'
 import { fadeIn, textVariant } from "../utils/motion";
 import { services } from "../constants";
 import { motion } from "framer-motion";
@@ -68,4 +68,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, 'about')
