@@ -10,7 +10,7 @@ import { github } from '../assets';
 const ProjectCard = (props) => {
   const {
     source_code_link,
-    descripition,
+    description,
     index,
     image,
     name,
@@ -47,8 +47,13 @@ const ProjectCard = (props) => {
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-
           </div>
+        </div>
+
+        <div className='mt-5'>
+          <h3>{name}</h3>
+          <p>{description}</p>
+
         </div>
       </Tilt>
     </motion.div>
