@@ -11,9 +11,16 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { staggerContainer, textVariant } from "../utils/motion";
 
-const ExperienceCard = (experience, index) => {
+const ExperienceCard = ({ experience }) => {
   return (
-    'asdf'
+    <VerticalTimelineElement
+      contentStyle={{ background: '#1d1836', color: '#fff' }}
+      contentArrowStyle={{ borderRight: '7px solid #232621' }}
+      date={experience.date}
+      iconStyle={{ background: experience.iconBg }}
+    >
+      {experience.date}
+    </VerticalTimelineElement>
   );
 }
 
@@ -29,7 +36,7 @@ const Experience = () => {
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, i) => <ExperienceCard experience={experience} index={i} />)}
+          {experiences.map((experience, i) => <ExperienceCard experience={experience} />)}
         </VerticalTimeline>
 
       </div>
