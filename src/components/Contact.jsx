@@ -17,20 +17,20 @@ const Contact = () => {
   })
 
   const handleChange = (e) => {
-    const { target, value } = e.target;
-    setForm({ ...form, [name]: value })
+    const { target } = e;
+    const { name, value } = target;
+
+    setForm({
+      ...form,
+      [name]: value,
+    });
   }
 
   const handleSubmit = (e) => {
-    e.preventDeafult();
-
-    // template_12zzt53
-    // service_yvgxn89
-    // j_YDXX6JWl07qmiug
-
-
+    e.preventDefault();
     setLoading(true)
-    email.send(
+
+    emailjs.send(
       'service_yvgxn89',
       'template_12zzt53',
       {
