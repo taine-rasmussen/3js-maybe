@@ -6,8 +6,30 @@ import CanvasLoader from '../Loader';
 
 const Earth = () => {
   return (
-    <div>Earth</div>
+    <div>
+      Earth
+    </div>
   )
 }
 
-export default Earth
+const EarthCanvas = () => {
+  return (
+    <Canvas
+      shadows
+      frameLoop='demand'
+      gl={{ preserveDrawingBuffer: true }}
+      camera={{}}
+    >
+      <Suspense fallback={<CanvasLoader />} />
+      <OrbitControls
+        autoRotate
+        enableZoom={true}
+        maxPolarAngle={Math.PI / 2}
+        minPolarAngle={Math.PI / 2}
+      />
+      <Earth />
+    </Canvas>
+  )
+}
+
+export default EarthCanvas
