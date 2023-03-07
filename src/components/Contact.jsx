@@ -41,7 +41,19 @@ const Contact = () => {
         message: form.message
       },
       'j_YDXX6JWl07qmiug'
-    )
+    ).then(() => {
+      setLoading(false);
+      alert('Thank you, I will get back to you as soon as possible.')
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+    }, (error) => {
+      setLoading(false)
+      console.log(error)
+      alert('something went wrong...')
+    })
   }
 
   return (
