@@ -35,6 +35,13 @@ const ProjectCard = (props) => {
             alt={name}
             className='w-full h-full object-cover rounded-2xl'
           />
+
+          <div
+            className='absolute inset-0 flex justify-end m-3 card-img_hover'
+            onClick={() => window.open(source_code_link, '_blank')}
+          >
+
+          </div>
         </div>
       </Tilt>
     </motion.div>
