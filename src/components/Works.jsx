@@ -7,7 +7,16 @@ import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { github } from '../assets';
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
+  const {
+    source_code_link,
+    descripition,
+    index,
+    image,
+    name,
+    tags
+  } = props;
+
   return (
     <Tilt>
 
