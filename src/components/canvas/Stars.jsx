@@ -21,4 +21,4 @@ const StarsCanvas = () => {
   )
 }
 
-export default Stars
+export default StarsCanvas
