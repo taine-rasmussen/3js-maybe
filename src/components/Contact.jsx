@@ -21,7 +21,9 @@ const Contact = () => {
   const handleSubmit = (e) => { }
 
   return (
-    <div>Contact</div>
+    <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
+
+    </div>
   )
 }
 
