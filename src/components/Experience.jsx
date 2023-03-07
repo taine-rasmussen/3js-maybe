@@ -9,12 +9,19 @@ import {
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { staggerContainer, textVariant } from "../utils/motion";
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <>
+      <motion.div
+        vvariants={textVariant()}
+      >
+        <p className={styles.sectionSubText}>What I have done so far</p>
+        <h2 className={styles.sectionHeadText}>Experince.</h2>
+      </motion.div>
+    </>
   )
 }
 
-export default Experience
+export default SectionWrapper(Experience, 'work')
