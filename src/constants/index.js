@@ -1,10 +1,9 @@
 import {
   mobile,
-  backend,
-  creator,
+  mui,
   web,
   javascript,
-  typescript,
+  mySQL,
   html,
   css,
   reactjs,
@@ -13,10 +12,9 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
+  rails,
   tesla,
   shopify,
   carrent,
@@ -42,21 +40,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React specialists",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -71,10 +61,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -101,26 +87,32 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: 'rails',
+    icon: rails
+  },
+  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: 'mySQL',
+    icon: mySQL
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: 'mui',
+    icon: mui
+  }
 ];
+
+// To add SQL - Rails - materialUi
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Junior Full Stack Engineer",
+    company_name: "AskYourTeam",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
