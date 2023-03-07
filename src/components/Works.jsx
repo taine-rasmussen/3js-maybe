@@ -18,9 +18,11 @@ const ProjectCard = (props) => {
   } = props;
 
   return (
-    <Tilt>
-
-    </Tilt>
+    <motion.div
+      variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+    >
+      test
+    </motion.div>
   )
 }
 
