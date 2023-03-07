@@ -50,7 +50,7 @@ const ProjectCard = (props) => {
           </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-5 flex gap-3 flex-col'>
           <h3>{name}</h3>
           <p>{description}</p>
 
