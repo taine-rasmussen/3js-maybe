@@ -7,6 +7,9 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+// template_12zzt53
+// service_yvgxn89
+// j_YDXX6JWl07qmiug
 
 const Contact = () => {
   const formRef = useRef();
@@ -17,8 +20,14 @@ const Contact = () => {
     message: ''
   })
 
-  const handleChange = (e) => { }
-  const handleSubmit = (e) => { }
+  const handleChange = (e) => {
+    const { target, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+
+  }
 
   return (
     <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
