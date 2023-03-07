@@ -14,10 +14,20 @@ import { staggerContainer, textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
+      key={experience.title}
       contentStyle={{ background: '#1d1836', color: '#fff' }}
       contentArrowStyle={{ borderRight: '7px solid #232621' }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
+      icon={
+        <div>
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className='w-[60%] h=[60%] object-contain'
+          />
+        </div>
+      }
     >
       {experience.date}
     </VerticalTimelineElement>
