@@ -50,7 +50,7 @@ const ComputersCanvas = ({ isMobile, setIsMobile }) => {
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
-  }, [isMobile]);
+  }, []);
 
   return (
     <Canvas
