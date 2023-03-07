@@ -7,10 +7,6 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-// template_12zzt53
-// service_yvgxn89
-// j_YDXX6JWl07qmiug
-
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false)
@@ -26,7 +22,26 @@ const Contact = () => {
   }
 
   const handleSubmit = (e) => {
+    e.preventDeafult();
 
+    // template_12zzt53
+    // service_yvgxn89
+    // j_YDXX6JWl07qmiug
+
+
+    setLoading(true)
+    email.send(
+      'service_yvgxn89',
+      'template_12zzt53',
+      {
+        from_name: form.name,
+        to_name: 'Taine',
+        from_email: form.email,
+        to_email: 'taine.rasmussen@gmail.com',
+        message: form.message
+      },
+      'j_YDXX6JWl07qmiug'
+    )
   }
 
   return (
