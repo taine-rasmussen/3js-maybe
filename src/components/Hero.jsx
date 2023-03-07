@@ -1,7 +1,7 @@
 
-import { ComputersCanvas } from "./canvas";
-import { motion } from "framer-motion";
-import { styles } from "../styles";
+import { ComputersCanvas } from './canvas';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
 import { useState } from 'react';
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: "loop",
+                repeatType: 'loop',
               }}
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
