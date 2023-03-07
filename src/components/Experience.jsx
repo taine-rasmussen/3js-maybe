@@ -13,7 +13,6 @@ import { staggerContainer, textVariant } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    key={experience.title}
     contentStyle={{ background: '#1d1836', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid #232621' }}
     date={experience.date}
@@ -56,10 +55,16 @@ const Experience = () => {
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Experince.</h2>
       </motion.div>
-
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, i) => <ExperienceCard experience={experience} />)}
+          {
+            experiences.map((experience, index) => (
+              <ExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))
+          }
         </VerticalTimeline>
 
       </div>
