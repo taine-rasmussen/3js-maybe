@@ -30,6 +30,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import eda from './company/eda.png'
 import ayt from "./company/ayt.png";
+import flick from "./company/flick.png";
+import pic from "./company/pic.png";
+
+
 
 
 import carrent from "./carrent.png";
@@ -43,10 +47,12 @@ export {
   creator,
   logo1,
   mobile,
+  pic,
   web,
   github,
   rails,
   ayt,
+  flick,
   menu,
   close,
   css,
