@@ -106,8 +106,6 @@ const technologies = [
   }
 ];
 
-// To add SQL - Rails - materialUi
-
 const experiences = [
   {
     title: "Junior Full Stack Engineer",
@@ -117,8 +115,8 @@ const experiences = [
     date: "Jan 2022 - Present",
     link: 'https://www.askyourteam.com',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      'Translated Figma designs & wireframes into high-quality responsive user interface components with React.js',
+      'Reviewed application requirements and interface designs to ensure compatibilty with our product',
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
