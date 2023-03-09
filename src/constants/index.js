@@ -14,6 +14,7 @@ import {
   git,
   meta,
   starbucks,
+  ayt,
   rails,
   tesla,
   shopify,
@@ -110,7 +111,7 @@ const experiences = [
   {
     title: "Junior Full Stack Engineer",
     company_name: "AskYourTeam",
-    icon: starbucks,
+    icon: ayt,
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
@@ -227,4 +228,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
