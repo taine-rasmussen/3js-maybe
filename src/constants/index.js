@@ -106,8 +106,6 @@ const technologies = [
   }
 ];
 
-// To add SQL - Rails - materialUi
-
 const experiences = [
   {
     title: "Junior Full Stack Engineer",
