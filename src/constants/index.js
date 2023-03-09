@@ -12,9 +12,11 @@ import {
   nodejs,
   mongodb,
   git,
+  pic,
   meta,
   eda,
   ayt,
+  flick,
   rails,
   shopify,
   carrent,
@@ -126,7 +128,35 @@ const experiences = [
     company_name: "Dev Academy Aotearoa",
     icon: eda,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Nov 2022",
+    date: "Apr 2021 - Nov 2021",
+    link: 'https://devacademy.co.nz',
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ]
+  },
+  {
+    title: "Freelance photograhper",
+    company_name: "Self employed",
+    icon: pic,
+    iconBg: "#E6DEDD",
+    date: "Jul 2019 - Apr 2021",
+    link: 'https://devacademy.co.nz',
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ]
+  },
+  {
+    title: "Marketing executive / Customer advisor",
+    company_name: "Flick Electic",
+    icon: flick,
+    iconBg: "#E6DEDD",
+    date: "Nov 2017 - Nov 2020",
     link: 'https://devacademy.co.nz',
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
