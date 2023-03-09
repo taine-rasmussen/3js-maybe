@@ -16,15 +16,17 @@ const ExperienceCard = ({ experience }) => (
     contentStyle={{ background: '#1d1836', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid #232621' }}
     date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
+    iconStyle={{ background: '#fff' }}
     icon={
-      <div className='flex justify-center items-center w-full h-full'>
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className='w-[60%] h=[60%] object-contain'
-        />
-      </div>
+      <a href={experience.link} alt='company website' target='_blank'>
+        <div className='flex justify-center items-center w-full h-full'>
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className='w-[60%] h=[60%] object-contain'
+          />
+        </div>
+      </a>
     }
   >
     <div>
