@@ -55,7 +55,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-2-3x1 leading-[30px]'
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        As a dedicated Full Stack developer, my passion for programming and interest in exploring new things have led me to graduate from a web development bootcamp, in addition to gaining professional experience at a SaaS company in New Zealand over the past 14 months. With a solid foundation in web development and technical knowledge, I bring expertise and a detail-oriented approach to all projects. Having recently relocated to London, I am eager to explore new opportunities and contribute my skills and enthusiasm to a new team.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
