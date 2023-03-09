@@ -28,7 +28,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import eda from './company/eda.png'
 import ayt from "./company/ayt.png";
 
 
@@ -39,6 +39,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  eda,
   creator,
   logo1,
   mobile,
@@ -64,7 +65,6 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
