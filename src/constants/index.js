@@ -49,11 +49,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack developer",
+    title: "Full stack web developer",
     icon: web,
   },
   {
-    title: "React specialists",
+    title: "React specialist",
     icon: mobile,
   }
 ];
@@ -187,15 +187,15 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Redux",
+        name: "Redux toolkit",
         color: "orange-text-gradient",
       },
       {
-        name: "JWT & auth",
+        name: "JWT",
         color: "pink-text-gradient",
       },
       {
-        name: "Node & express",
+        name: "Node & Express",
         color: "green-text-gradient",
       }
     ],
@@ -208,7 +208,7 @@ const projects = [
       "Recreation of the popular puzzle game using React.js",
     tags: [
       {
-        name: "Ract",
+        name: "React",
         color: "blue-text-gradient",
       }
     ],
