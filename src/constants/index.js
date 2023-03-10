@@ -115,10 +115,11 @@ const experiences = [
     date: "Jan 2022 - Present",
     link: 'https://www.askyourteam.com',
     points: [
-      'Translated Figma designs & wireframes into high-quality responsive user interface components with React.js',
-      'Reviewed application requirements and interface designs to ensure compatibilty with our product',
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a new filterable user table feature using React, integrating infinite scroll, pagination functionality, sortable columns, a searchable table, and pop-out modals with detailed information display. Increasing the feature's usability and enhancing the user experience. Created and updated multiple APIs to optimize feature performance and ensure data integrity. Conducted thorough testing and debugging, resulting in a seamless and user - friendly experience for automated report viewers",
+      'Developed React components for a robust bulk changes feature that enables users to efficiently manage and set permissions at scale. Integrated this front end with new APIs to support the feature, resulting in significant performance improvements. Streamlined permission-setting time for an organization size of 200 from 9000 seconds to just 30 seconds, demonstrating a remarkable 30000% improvement in efficiency.',
+      'Translated complex Figma designs and wireframes into high-quality responsive user interface components with React.js, working closely with the design team to ensure accuracy and seamless integration with our product.',
+      'Reviewed application requirements and interface designs to ensure compatibility with our product, collaborating with the product and design teams to identify potential areas for improvement and providing valuable feedback on functionality and user experience. Conducted extensive testing and debugging, identifying and resolving issues in a timely manner to minimize impact on project deadlines.',
+      'Participated in code reviews and provided constructive feedback to other developers, leveraging my experience and knowledge of React.js and front-end development best practices to ensure code quality, maintainability, and scalability.',
     ],
   },
   {
