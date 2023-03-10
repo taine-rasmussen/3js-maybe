@@ -37,7 +37,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -130,10 +130,8 @@ const experiences = [
     date: "Apr 2021 - Nov 2021",
     link: 'https://devacademy.co.nz',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my full stack bootcamp, I gained hands-on experience in various technologies like Javascript, React, Express and Node.js. This helped me develop a strong foundation in software development processes and best practices like agile development, version control, and testing. With several projects and assignments, I also honed my problem-solving and critical thinking skills while working collaboratively in a team environment",
+      "The bootcamp also gave me a deeper understanding of my learning style, which has proved invaluable in my career growth. Knowing my strengths and weaknesses has helped me focus my learning efforts on areas where I can make the most impact and continuously improve my skills. I actively seek out new learning opportunities and resources that align with my preferred learning style and make the most of them.",
     ]
   },
   {
@@ -142,12 +140,9 @@ const experiences = [
     icon: pic,
     iconBg: "#E6DEDD",
     date: "Jul 2019 - Apr 2021",
-    link: 'https://devacademy.co.nz',
+    link: 'https://www.instagram.com/tainerasmussen/',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Freelance photographer working across fashion and editorial clients working with both print and digital.'
     ]
   },
   {
@@ -156,12 +151,12 @@ const experiences = [
     icon: flick,
     iconBg: "#E6DEDD",
     date: "Nov 2017 - Nov 2020",
-    link: 'https://devacademy.co.nz',
+    link: 'https://www.flickelectric.co.nz/',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Social media content manager.",
+      "Content audits / maintaining and producing rolling content calendar.",
+      "Subject matter expert / business account manager.",
+      "CXA contact with dev team providing user feedback on internal tool design improvements.",
     ]
   }
 ];
