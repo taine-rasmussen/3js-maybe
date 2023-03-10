@@ -1,3 +1,4 @@
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { motion } from 'framer-motion';
 import Tilt from 'react-tilt';
 
@@ -77,7 +78,14 @@ const Works = () => {
         variants={textVariant()}
       >
         <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <div className='flex flex-row flex-wrap items-center gap-5'>
+          <h2 className={styles.sectionHeadText}>Projects.</h2>
+          <a href='https://github.com/taine-rasmussen' target='_blank'>
+            <AiFillGithub
+              size={60}
+            />
+          </a>
+        </div>
       </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
