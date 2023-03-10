@@ -1,3 +1,4 @@
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { motion } from 'framer-motion';
 import Tilt from 'react-tilt';
 
@@ -78,6 +79,11 @@ const Works = () => {
       >
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <a href='https://github.com/taine-rasmussen' target='_blank'>
+          <AiFillGithub
+            size={40}
+          />
+        </a>
       </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-7'>

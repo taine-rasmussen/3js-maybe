@@ -49,14 +49,6 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <div>
-          <ul>
-            <li>Resume</li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
