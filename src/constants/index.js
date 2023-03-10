@@ -13,6 +13,7 @@ import {
   mongodb,
   git,
   pic,
+  folio,
   meta,
   eda,
   ayt,
@@ -20,6 +21,8 @@ import {
   rails,
   shopify,
   carrent,
+  socialapp,
+  wordle,
   jobit,
   tripguide,
   threejs,
@@ -167,12 +170,12 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social media app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full stack social media app. Users can browse timelines, profiles, add / remove friends, comment on posts and create their own post supporting image upload",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -180,54 +183,58 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "materialUi",
         color: "pink-text-gradient",
       },
+      {
+        name: "Redux",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JWT & auth",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node & express",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: socialapp,
+    source_code_link: "https://github.com/taine-rasmussen/social-app",
   },
   {
-    name: "Job IT",
+    name: "Wordle",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Recreation of the popular puzzle game using React.js",
     tags: [
       {
-        name: "react",
+        name: "Ract",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: wordle,
+    source_code_link: "https://github.com/taine-rasmussen/not-wordle",
+  },
+  {
+    name: "Personal portfolio",
+    description:
+      "my little corner of the web, providing me with new portfolio while also exploring threeJS for the first time",
+    tags: [
+      {
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ThreeJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Tailwind",
+        color: "orange-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: folio,
+    source_code_link: "https://github.com/taine-rasmussen/3js-maybe",
   },
 ];
 
