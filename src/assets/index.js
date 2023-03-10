@@ -37,6 +37,9 @@ import pic from "./company/pic.png";
 
 
 import carrent from "./carrent.png";
+import wordle from "./wordle.png";
+import folio from "./folio.png";
+import socialapp from "./socialapp.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -46,8 +49,11 @@ export {
   eda,
   creator,
   logo1,
+  socialapp,
   mobile,
+  wordle,
   pic,
+  folio,
   web,
   github,
   rails,
