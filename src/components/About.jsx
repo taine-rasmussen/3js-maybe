@@ -54,7 +54,7 @@ const About = () => {
         variants={slideIn('left', 'tween', 0.2, 1)}
         className='mt-10 flex flex-row'
       >
-        <a href='src/assets/Taine Rasmussen CV.pdf' title="" download>
+        <a href='src/assets/TaineRasmussenCV.pdf' download>
           <h3 className='sm:text-[24px] text-[20px] text-white uppercase tracking-wider bold'>Download CV</h3>
         </a>
       </motion.div >
