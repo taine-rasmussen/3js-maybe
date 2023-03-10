@@ -1,7 +1,7 @@
-import { SectionWrapper } from '../hoc'
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn, slideIn, textVariant } from '../utils/motion';
 import { services } from '../constants';
 import { motion } from 'framer-motion';
+import { SectionWrapper } from '../hoc'
 import { styles } from '../styles';
 import Tilt from 'react-tilt';
 
@@ -42,7 +42,6 @@ const ServiceCard = (props) => {
   )
 }
 
-
 const About = () => {
   return (
     <>
@@ -50,6 +49,15 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
+
+      <motion.div
+        variants={slideIn('left', 'tween', 0.2, 1)}
+        className='mt-10 flex flex-row'
+      >
+        <a href='src/assets/Taine Rasmussen CV.pdf' title="" download>
+          <h3 className='sm:text-[24px] text-[20px] text-white uppercase tracking-wider bold'>Download CV</h3>
+        </a>
+      </motion.div >
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
@@ -62,7 +70,6 @@ const About = () => {
         {services.map((service, i) => (
           <ServiceCard key={service.title} index={i} {...service} />
         ))}
-
       </div>
     </>
   )
