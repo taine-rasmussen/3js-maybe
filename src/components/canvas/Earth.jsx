@@ -10,7 +10,7 @@ const Earth = ({ isMobile }) => {
   return (
     <primitive
       object={earth.scene}
-      scale={isMobile ? 1.5 : 2.5}
+      scale={isMobile ? 1.5 : 2.25}
       position-y={-0.8}
       rotation-y={0}
     />
@@ -52,7 +52,7 @@ const EarthCanvas = ({ isMobile, setIsMobile }) => {
       <Suspense fallback={<CanvasLoader />} />
       <OrbitControls
         autoRotate
-        enableZoom={true}
+        enableZoom={false}
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
       />
