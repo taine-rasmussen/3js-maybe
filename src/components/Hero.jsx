@@ -22,7 +22,6 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas isMobile={isMobile} setIsMobile={setIsMobile} />
       <EarthCanvas />
 
       <div className={`absolute ${isMobile ? 'bottom-12' : 'bottom-32'} w-full flex justify-center items-center`}>
