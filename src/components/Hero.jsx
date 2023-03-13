@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <EarthCanvas />
+      <EarthCanvas isMobile={isMobile} setIsMobile={setIsMobile} />
 
       <div className={`absolute ${isMobile ? 'bottom-12' : 'bottom-32'} w-full flex justify-center items-center`}>
         <a href='#about'>
