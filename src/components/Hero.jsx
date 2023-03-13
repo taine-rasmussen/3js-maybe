@@ -1,5 +1,6 @@
 
-import { ComputersCanvas } from './canvas';
+import { slideIn } from '../utils/motion';
+import { EarthCanvas } from './canvas';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { useState } from 'react';
@@ -22,6 +23,7 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas isMobile={isMobile} setIsMobile={setIsMobile} />
+      <EarthCanvas />
 
       <div className={`absolute ${isMobile ? 'bottom-12' : 'bottom-32'} w-full flex justify-center items-center`}>
         <a href='#about'>
