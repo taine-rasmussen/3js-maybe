@@ -1,5 +1,3 @@
-
-import { slideIn } from '../utils/motion';
 import { EarthCanvas } from './canvas';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
