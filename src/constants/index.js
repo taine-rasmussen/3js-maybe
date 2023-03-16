@@ -2,6 +2,7 @@ import {
   mobile,
   mui,
   web,
+  chat,
   javascript,
   mySQL,
   html,
@@ -201,6 +202,35 @@ const projects = [
     ],
     image: socialapp,
     source_code_link: "https://github.com/taine-rasmussen/social-app",
+  },
+  {
+    name: "ChatGPT intergrate chat room",
+    description:
+      "The Chat Room app is a user-friendly platform that enables real-time communication and collaboration. Users can create and join chat rooms, exchange messages, upload and send images, manage user access, and utilize an AI bot powered by the OpenAI API to enhance conversations and productivity.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux toolkit",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node & Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chatEngine.io",
+        color: "blue-text-gradient",
+      },
+      {
+        name: 'Openai',
+        color: "green-text-gradient",
+      }
+    ],
+    image: chat,
+    source_code_link: "https://github.com/taine-rasmussen/chat",
   },
   {
     name: "Wordle",

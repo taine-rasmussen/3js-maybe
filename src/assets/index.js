@@ -38,6 +38,7 @@ import pic from "./company/pic.png";
 
 import carrent from "./carrent.png";
 import wordle from "./wordle.png";
+import chat from "./chat.png";
 import folio from "./folio.png";
 import socialapp from "./socialapp.png";
 import jobit from "./jobit.png";
@@ -45,6 +46,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  chat,
   backend,
   eda,
   creator,
