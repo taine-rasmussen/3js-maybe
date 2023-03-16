@@ -204,7 +204,7 @@ const projects = [
     source_code_link: "https://github.com/taine-rasmussen/social-app",
   },
   {
-    name: "ChatGPT intergrate chat room",
+    name: "ChatGPT intergrated chat room",
     description:
       "The Chat Room app is a user-friendly platform that enables real-time communication and collaboration. Users can create and join chat rooms, exchange messages, upload and send images, manage user access, and utilize an AI bot powered by the OpenAI API to enhance conversations and productivity.",
     tags: [
