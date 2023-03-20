@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useMemo } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 
@@ -15,7 +15,17 @@ const Contact = () => {
     message: ''
   })
 
-  const isValidForm = false
+  const isValidForm = useMemo(
+    () => {
+      if (form.name && form.message) {
+        return true
+      } else {
+        return false
+      }
+    }
+  )
+
+  // A Boolean value that will check if the contents of the form are valid before to decided if a user can send the contact email with their current input
 
   const handleChange = (e) => {
     const { target } = e;
@@ -105,14 +115,24 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          <div
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap',
+              flexDirection: 'row',
+              gap: '2rem',
+              alignItems: 'center'
+            }}
           >
-            {loading ? "Sending..." : "Send"}
-          </button>
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
 
-          {isValidForm ? '' : <span className='text-white'>Please fill out the form before sending</span>}
+            {isValidForm ? '' : <span className='text-white'>Please fill out the form before sending</span>}
+          </div>
         </form>
       </motion.div>
     </div>
