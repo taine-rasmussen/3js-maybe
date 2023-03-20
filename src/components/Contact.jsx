@@ -9,23 +9,12 @@ import { slideIn } from '../utils/motion';
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false)
+  const [isValidForm, setIsValidForm] = useState(true)
   const [form, setForm] = useState({
     name: '',
     email: '',
     message: ''
   })
-
-  const isValidForm = useMemo(
-    () => {
-      if (form.name && form.message) {
-        return true
-      } else {
-        return false
-      }
-    }
-  )
-
-  // A Boolean value that will check if the contents of the form are valid before to decided if a user can send the contact email with their current input
 
   const handleChange = (e) => {
     const { target } = e;
@@ -39,7 +28,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true)
+
+    if (!form.name && !form.message) {
+      setIsValidForm(false)
+      setLoading(false)
+      return
+    } else {
+      setIsValidForm(true)
+      setLoading(true)
+    }
 
     emailjs.send(
       'service_yvgxn89',
