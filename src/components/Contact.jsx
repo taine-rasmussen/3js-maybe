@@ -15,6 +15,8 @@ const Contact = () => {
     message: ''
   })
 
+  const isValidForm = false
+
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -53,7 +55,7 @@ const Contact = () => {
       console.log(error)
       alert('something went wrong...')
     })
-  }
+  };
 
   return (
     <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
@@ -109,6 +111,8 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          {isValidForm ? '' : <span className='text-white'>Please fill out the form before sending</span>}
         </form>
       </motion.div>
     </div>
