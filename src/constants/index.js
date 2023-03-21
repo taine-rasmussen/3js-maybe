@@ -123,11 +123,11 @@ const experiences = [
     date: "Jan 2022 - Present",
     link: 'https://www.askyourteam.com',
     points: [
-      "Developed a new filterable user table feature using React, integrating infinite scroll, pagination functionality, sortable columns, a searchable table, and pop-out modals with detailed information display. Increasing the feature's usability and enhancing the user experience. Created and updated multiple APIs to optimize feature performance and ensure data integrity. Conducted thorough testing and debugging, resulting in a seamless and user - friendly experience for automated report viewers",
-      'Developed React components for a robust bulk changes feature that enables users to efficiently manage and set permissions at scale. Integrated this front end with new APIs to support the feature, resulting in significant performance improvements. Streamlined permission-setting time for an organization size of 200 from 9000 seconds to just 30 seconds, demonstrating a remarkable 30000% improvement in efficiency.',
-      'Translated complex Figma designs and wireframes into high-quality responsive user interface components with React.js, working closely with the design team to ensure accuracy and seamless integration with our product.',
-      'Reviewed application requirements and interface designs to ensure compatibility with our product, collaborating with the product and design teams to identify potential areas for improvement and providing valuable feedback on functionality and user experience. Conducted extensive testing and debugging, identifying and resolving issues in a timely manner to minimize impact on project deadlines.',
+      "Developed multiple features, including filterable user tables and bulk update functionalities, using React and building new APIs to support significant performance improvements. Streamlined permission- setting time for an organization of 200 from 9000 to just 30 seconds, resulting in a 30000% improvement in efficiency.",
+      'Worked closely with UI/UX designers to implement responsive layouts and accessibility features using React, successfully translating Figma mockups into a more user-friendly application.',
       'Participated in code reviews and provided constructive feedback to other developers, leveraging my experience and knowledge of React.js and front-end development best practices to ensure code quality, maintainability, and scalability.',
+      'Collaborated with senior developers in "T-shaped" cross-functional Agile teams to implement and maintain React best practices, resulting in streamlined development workflows and improved code quality.',
+      'Contributed to various aspects of the technical stack, including continuous integration for automated testing, building and deploying the application, and integrating a feature flag solution to ensure consistent high-quality builds with zero downtime.',
     ],
   },
   {
@@ -138,8 +138,10 @@ const experiences = [
     date: "Apr 2021 - Nov 2021",
     link: 'https://devacademy.co.nz',
     points: [
-      "During my full stack bootcamp, I gained hands-on experience in various technologies like Javascript, React, Express and Node.js. This helped me develop a strong foundation in software development processes and best practices like agile development, version control, and testing. With several projects and assignments, I also honed my problem-solving and critical thinking skills while working collaboratively in a team environment",
-      "The bootcamp also gave me a deeper understanding of my learning style, which has proved invaluable in my career growth. Knowing my strengths and weaknesses has helped me focus my learning efforts on areas where I can make the most impact and continuously improve my skills. I actively seek out new learning opportunities and resources that align with my preferred learning style and make the most of them.",
+      "Gained hands-on experience with full-stack web development technologies, including JavaScript, React, Express, and Node.js, building multiple projects from scratch.",
+      "Developed a strong foundation in software development processes and best practices, including version control, agile methodologies, and testing frameworks. - Jest, Cypress and Rspec.",
+      'Discovered my hands-on learning style and learned how to focus on areas for improvement while seeking out new learning opportunities.',
+      'Collaborated with other developers and stakeholders on various projects, honing my problem-solving and communication skills.'
     ]
   },
   {
