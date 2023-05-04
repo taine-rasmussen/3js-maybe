@@ -116,18 +116,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Full Stack Engineer",
+    title: "Full Stack Developer",
     company_name: "AskYourTeam",
     icon: ayt,
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
     link: 'https://www.askyourteam.com',
     points: [
-      "Developed multiple features, including filterable user tables and bulk update functionalities, using React and building new APIs to support significant performance improvements. Streamlined permission- setting time for an organization of 200 from 9000 to just 30 seconds, resulting in a 30000% improvement in efficiency.",
+      "Developed multiple features, including filterable user tables and bulk update functionalities, using React and building new APIs to support significant performance improvements. Streamlined permission- setting time for an organisation of 200 from 9000 to just 30 seconds.",
       'Worked closely with UI/UX designers to implement responsive layouts and accessibility features using React, successfully translating Figma mockups into a more user-friendly application.',
-      'Participated in code reviews and provided constructive feedback to other developers, leveraging my experience and knowledge of React.js and front-end development best practices to ensure code quality, maintainability, and scalability.',
-      'Collaborated with senior developers in "T-shaped" cross-functional Agile teams to implement and maintain React best practices, resulting in streamlined development workflows and improved code quality.',
-      'Contributed to various aspects of the technical stack, including continuous integration for automated testing, building and deploying the application, and integrating a feature flag solution to ensure consistent high-quality builds with zero downtime.',
+      'Developed and maintained robust and efficient code to connect backend APIs in Ruby to the user interface built in React, resulting in seamless data flow and improved user experience.',
+      'Implemented automated testing using Cypress and Rspec, resulting in more efficient and reliable testing processes and a more stable codebase.',
+      'Design and develop new features for web applications using React and Redux.',
+      'Implemented automated testing using Cypress and Rspec, resulting in more efficient and reliable testing processes and a more stable codebase.',
+      'Maintained and expanded an internal React library by adding new components and updating existing ones to ensure consistency across projects, resulting in a more efficient development process and a reduction in code duplication.',
+      'Participate in code reviews and provide feedback to improve code quality.'
     ],
   },
   {
