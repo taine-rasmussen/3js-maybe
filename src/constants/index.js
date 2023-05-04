@@ -123,7 +123,7 @@ const experiences = [
     date: "Jan 2022 - Present",
     link: 'https://www.askyourteam.com',
     points: [
-      "Developed multiple features, including filterable user tables and bulk update functionalities, using React and building new APIs to support significant performance improvements. Streamlined permission- setting time for an organisation of 200 from 9000 to just 30 seconds.",
+      "Developed multiple features, including filterable user tables and bulk update functionalities, using React and building new APIs to support significant performance improvements. Streamlined permission setting time for an organisation of 200 from 9000 to just 30 seconds.",
       'Worked closely with UI/UX designers to implement responsive layouts and accessibility features using React, successfully translating Figma mockups into a more user-friendly application.',
       'Developed and maintained robust and efficient code to connect backend APIs in Ruby to the user interface built in React, resulting in seamless data flow and improved user experience.',
       'Implemented automated testing using Cypress and Rspec, resulting in more efficient and reliable testing processes and a more stable codebase.',
